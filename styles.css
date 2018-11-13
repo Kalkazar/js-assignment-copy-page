@@ -1,0 +1,36 @@
+#ac-globalnav {
+    display: flex;
+    justify-content: center;
+    background: #333;
+}
+
+div.ac-gn-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font: white;
+}
+
+ul.ac-gn-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.ac-gn-item {
+    display: inline;
+    color: white;
+    font: helvetica;
+}
+
+li > a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
